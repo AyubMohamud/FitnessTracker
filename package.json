@@ -1,0 +1,27 @@
+{
+  "name": "mongoose_skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node seeders/seed.js && node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "Tom Overland",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyubMohamud/FitnessTracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AyubMohamud/FitnessTracker/issues"
+  },
+  "homepage": "https://github.com/AyubMohamud/FitnessTracker#readme"
+}
